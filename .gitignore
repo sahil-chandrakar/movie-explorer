@@ -1,0 +1,36 @@
+# Ignore Node modules
+node_modules/
+
+# Ignore build/dist output
+dist/
+dist-ts/
+build/
+out/
+
+# Ignore compiled JS files (from TS)
+*.js.map
+*.js
+
+# But keep JS inside assets/js if needed
+!assets/js/
+
+# Ignore TypeScript build cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# VS Code settings
+.vscode/

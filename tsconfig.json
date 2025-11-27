@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ES2015",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./assets/js",
+    "rootDir": "./assets/ts",
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["assets/ts"]
+}
