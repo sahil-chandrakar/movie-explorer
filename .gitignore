@@ -7,12 +7,6 @@ dist-ts/
 build/
 out/
 
-# Ignore compiled JS files (from TS)
-*.js.map
-*.js
-
-# But keep JS inside assets/js if needed
-!assets/js/
 
 # Ignore TypeScript build cache
 *.tsbuildinfo

@@ -7,7 +7,7 @@ interface OmdbResponse {
   Search?: MovieItem[];
 }
 
-const movieBar = document.querySelector(".movie-bar") as HTMLElement;
+const movieBar  = document.querySelector(".movie-bar") as HTMLElement;
 const searchInput = document.querySelector("#searchInput") as HTMLInputElement;
 
 //showing movie data code started
